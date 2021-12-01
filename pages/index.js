@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Header from "../Components/Header/Header";
+import Nav from "../Components/Nav/Nav";
+import Resualt from "../Components/Resualt/Resualt";
 
 export default function Home() {
   return (
@@ -10,8 +12,8 @@ export default function Home() {
       </Head>
 
       <Header />
-
-      <p>Start HULU</p>
+      <Nav />
+      <Resualt />
     </div>
   );
 }
