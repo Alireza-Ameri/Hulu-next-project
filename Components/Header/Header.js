@@ -10,8 +10,8 @@ import {
 
 const Header = () => {
   return (
-    <header className="flex justify-between">
-      <div className="flex ">
+    <header className="flex flex-col   sm:flex-row justify-between items-center">
+      <div className="flex flex-grow justify-evenly max-w-2xl">
         <HeaderIcon Icon={HomeIcon} title="HOME" />
         <HeaderIcon Icon={LightningBoltIcon} title="TENDING" />
         <HeaderIcon Icon={BadgeCheckIcon} title="VERIFIED" />
